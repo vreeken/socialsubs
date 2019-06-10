@@ -1,17 +1,53 @@
 @import url('https://fonts.googleapis.com/css?family=Merriweather:900|Merriweather+Sans&display=swap');
 
-$font-size-base: 1.8rem;
-$font-size-nav: 2rem;
-$font-family-sans-serif: 'Merriweather Sans', sans-serif;
-$font-family-serif: 'Merriweather', serif;
+$font_family_sans_serif: 'Merriweather Sans', sans-serif;
+$font_family_serif: 'Merriweather', serif;
+$font_timer: sans-serif;
 
-$color-highlight: #ffffff;
-$color-fade: #c9c9c9;
-$color-bg: #222222;
-$color-bg-alt: #4a4a4a;
-$color-text: #c9c9c9;
+
+//colors
+$white: #fff;
+$black: #000;
+
+$black_35: rgba(0,0,0,0.35);
+$black_20: rgba(0,0,0,.2);
+$black_75: rgba(0, 0, 0, 0.75);
+$black_90: rgba(0,0,0,.9);
+$dark_gray: rgb(30,30,30);
+
+$color_toast_bg: #424242;
+$color_success_bg: #4caf50;
+$color_warning_bg: #ffeb3b;
+$color_error_bg: #f44336;
+
+$color_light_text: #eee;
+$color_nav_active_link_bg: rgba(42, 129, 218, 0.1);
+
+$color_primary_button_glow: #fff6af;
+$color_primary_button_text_shadow: #ffee66;
+
+$color_primary_gradient_start: #ffec64;
+$color_primary_gradient_end: #ffab23;
+
+$color_text_dark: #333333;
+$color_medium_gray: #666;
+
+$color_bg_gradient_start: rgba(28, 158, 234, 0.9);
+$color_bg_gradient_end: rgba(0, 11, 204, 0.9);
+$color_bg_title_text: #fef1fe;
+
+$color_primary_bg: #4e9af1;
+$color_highlight: #ffffff;
+$color_fade: #c9c9c9;
+$color_bg: #222222;
+$color_text: #c9c9c9;
 
 $color-bg-nav: #377BB4;
+
+
+//urls
+$body_bg_img_url: url(/img/polygons_bw.png);
+
 
 :root {
 	--color-highlight: #ffffff;
