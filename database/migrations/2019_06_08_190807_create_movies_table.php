@@ -20,6 +20,7 @@ class CreateMoviesTable extends Migration
 			$table->string('title_short');
 			$table->unsignedSmallInteger('year');
 			$table->unsignedSmallInteger('runtime');
+			$table->boolean('status')->default(0);
             $table->timestamps();
         });
     }
