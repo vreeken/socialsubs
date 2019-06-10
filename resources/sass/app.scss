@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather:900|Merriweather+Sans&display=swap');
+
+$font-size-base: 1.8rem;
+$font-size-nav: 2rem;
+$font-family-sans-serif: 'Merriweather Sans', sans-serif;
+$font-family-serif: 'Merriweather', serif;
+
+$color-highlight: #ffffff;
+$color-fade: #c9c9c9;
+$color-bg: #222222;
+$color-bg-alt: #4a4a4a;
+$color-text: #c9c9c9;
+
+$color-bg-nav: #377BB4;
+
+:root {
+	--color-highlight: #ffffff;
+	--color-fade: #c9c9c9;
+	--color-bg: #222222;
+	--color-bg-alt: #4a4a4a;
+	--color-text: #c9c9c9;
+
+
+
+	--color-bg-nav: #377BB4;
+}
+[data-theme="light"] {
+    --color-highlight: #2c8898;
+	--color-fade: #982c61;
+	--color-bg: #f9f9f9;
+	--color-bg-alt: #f1f1f1;
+	--color-text: #4a4a4a;
+
+
+
+	--color-bg-nav: #9CD9FF;
+}
+@import "main";
