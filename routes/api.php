@@ -17,4 +17,4 @@ Route::get('movies/{movie}', 'MovieController@show');
 
 Route::get('comments/{movie}', 'CommentController@show');
 
-Route::post('polls/{id}/{option}', 'PollsController@store');
+Route::post('polls/{poll}/{option}', 'PollsController@store');
