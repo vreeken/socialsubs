@@ -160,12 +160,10 @@ class Watch extends Component {
 	}
 
 	pause() {
-		console.log("pause");
 		this.ticker.stop();
 		this.setState({status: this.STATUES.paused});
 	}
 	play() {
-		console.log("play");
 		this.ticker.start();
 		this.setState({status: this.STATUES.playing});
 	}
