@@ -27,11 +27,12 @@ function About() {
 				SocialSubs
 			</div>
 			<div>
-				Do you ever wish you could go back and watch your favorite movies for the very first time again?
-				SocialSubs gives a unique and exciting new way to watch your beloved movies by displaying behind the
-				scenes photos, hilarious movie mistakes, fun polls, interesting trivia questions, and timestamped user
-				comments from movie fans like yourself, all while you watch the movie.
-				But not only that, there is live chatting with anyone else currently watching the same movie as you.
+				<p>
+					SocialSubs is an app that you use as you watch your favorite movies. You sync SocialSubs playback with your media player, and different trivia questions, behind-the-scenes photos, facts, movie mistakes and more are displayed alongside your movie.
+				</p>
+				<p>
+					It&apos;s a great new method of watching a movie you&apos;ve seen many times and are looking to enjoy in a unique way. Give it a try!
+				</p>
 			</div>
 			<Link to="/movies">
 				<CTAButton variant="contained">
