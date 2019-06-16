@@ -94,7 +94,8 @@ function Nav(props) {
 		);
 	}
 
-
+	//TODO remove when authentication is working
+	lower_links = '';
 
 	const sideList = side => (
 		<div
